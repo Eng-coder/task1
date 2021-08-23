@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="a.html" method="POST">
+        <div>
+            <label for="username">User Name</label>
+        </div>
+        <div>
+            <input type="text" id="username" name="username" required value="" placeholder="اسم المستخدم">
+        </div>
+        <hr>
+        <div>
+            <label for="password">Password</label>
+        </div>
+        <div>
+            <input type="password" id="password" name="password" value="" placeholder="كلمة المرور">
+        </div>
+        <hr>
+        <div>
+            <label for="mobile">Mobile</label>
+        </div>
+        <div>
+            <input type="tel" id="mobile" name="mobile" value="" placeholder="رقم الهاتف">
+        </div>
+        <hr>
+        <div>
+            <label for="email">Email</label>
+        </div>
+        <div>
+            <input type="email" id="email" name="email" required value="" placeholder="البريد الالكتروني">
+        </div>
+        <hr>
+        <div>
+            <label for="subject">Subject</label>
+        </div>
+        <div>
+            <select name="subject" id="subject" value="" placeholder="الموضوع">
+                <option id="" value="0">Web design</option>
+                <option value="1">Web developer</option>
+                <option value="2">UI/UX</option>
+                <option value="3">Network</option>
+            </select>
+        </div>
+        <hr>
+        <input type="hidden" name="id" id="3">
+        <input style="background:darkturquoise" type="submit" name="submit" value="Send">
+    </form>
+</body>
+
+</html>
